@@ -111,6 +111,45 @@
     margin-top: 41px;
 }
 
+/* Play Games related styles */
+.play-game-heading{
+    max-width: 426px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.game-perag{
+    color: #534C64;
+    font-size: 18px;
+    max-width: 483px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.play-games{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-1{
+    width: 710px;
+    height: 650px;
+    border-radius: 8px;
+}
+.img-2{
+    width: 318px;
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    height: 365px;
+    position: relative;
+    right: 200px;
+    top: 120px;
+}
+
 
 /* Online Games related styles */
 .online-heading{
@@ -167,6 +206,40 @@
     background-color: black;
 }
 
+
+/* Play online section related styles */
+.gentre-icon{
+    margin-top: 120px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.gentre-1{
+    padding-top: 120px;
+    display: flex;
+    gap: 47px;
+    justify-content: center;
+}
+.gentre-2{
+    padding-top: 55px;
+    display: flex;
+    gap: 47px;
+    justify-content: center;
+}
+.catagory{
+    display: flex;
+    align-items: center;
+    width: 243px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    justify-content: center;
+}
+.catagory:hover{
+    transition: opacity 0.3s ease;
+    border: 2px solid red;
+}
+
+
+
 /* Responsive part */
 /* Mobile  */
 @media screen and (max-width: 576px){
@@ -200,6 +273,19 @@
     .online-games{
         flex-direction: column;
     }
+    .gentre-1{
+        flex-direction: column;
+    }
+    .gentre-2{
+        flex-direction: column;
+
+    }
+    .gentre-icon{
+        width: 80%;
+        /* background-color: white; */
+    }
+
+
 }
 /* Tablet or medium device */
 @media screen and (min-width:576px) and (max-width:992px){
